@@ -85,6 +85,7 @@ export default function Features() {
                             </div>
                         ))}
                     </div>
+                <p className="text-xs self-end mr-12 font-light font-poppins text-stone-500">*T&Cs apply | ** Based on similar branded projects in the last 2 years. Source 1 | Source 2</p>
                 </div>
             </section>
         </>
