@@ -80,7 +80,7 @@ export default function Features() {
                             <div key={FeatureAmenitie.title} className="p-8  w-full ">
                                 <div  className="flex flex-col bg-[#FCFCFC] h-60 shadow-lg p-4 items-center  ">
                                     <Image className="rounded-full border-4 border-zinc-300 transition duration-300 hover:scale-105" src={FeatureAmenitie.src} alt="floating pools" width={150} height={150} />
-                                    <p className="text-secondary font-poppins mt-4  mx-auto font-semibold w-2/3"> {FeatureAmenitie.title} </p>
+                                    <p className="text-secondary font-poppins mt-4  mx-auto font-semibold md:w-2/3"> {FeatureAmenitie.title} </p>
                                 </div>
                             </div>
                         ))}

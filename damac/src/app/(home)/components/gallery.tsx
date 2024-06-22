@@ -16,7 +16,7 @@ export default function Gallery() {
                     <div className="w-full">
                         <Image src={"/gallery/lg.jpg"} alt="gallery lg" width={1122} height={494} className="w-full h-auto" />
                     </div>
-                    <div className="flex gap-2 md:gap-4">
+                    <div className="grid grid-cols-4 gap-2 md:gap-4">
                         {smImages.map(smImage => (
                                 <Image key={smImage} src={"/gallery/" + smImage} alt="gallery sm" width={265} height={108} className="w-full h-auto" />
                         ))}
